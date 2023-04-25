@@ -5,6 +5,7 @@ const MiOrg = (props) => {
     //Estado - hooks
     //useState
     // const [nombreVariable,funcionActualiza] = useState(valorInicial)
+useState (/*valorInicial*/)    
     console.log(props)
     //const [mostrar, actualizarMostrar] = useState(true)
     //const manejarClick = () => {
@@ -14,7 +15,8 @@ const MiOrg = (props) => {
 
     return <section className="orgSection">
         <h3 className="title">Mi organización</h3>
-        <img src="/img/boton_agregar.png" alt="add" onClick={props.cambiarMostrar}/>
+        <img src="/img/boton_agregar.png" alt="add" 
+        onClick={props.cambiarMostrar} />
     </section>
 }
 export default MiOrg

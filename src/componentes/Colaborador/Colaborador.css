@@ -1,6 +1,7 @@
 .colaborador {
     width: 280px;
     margin-bottom: 24px;
+    position: relative;
 }
 
 .colaborador .encabezado {
@@ -20,7 +21,7 @@
 .colaborador .info {
     background: #ffffff;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-    border-radius: px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
     padding-top: 90px;
     padding-bottom: 40px;
     min-height: 100px;
@@ -38,10 +39,16 @@
 }
 
 .colaborador .info h5 {
-    font-size: 8px;
+    font-size: 18px;
     line-height: 22px;
     color: #212121;
     padding: 0 24px;
     font-weight: 400;
     margin: 0;
+}
+
+.eliminar{
+    position: absolute;
+    right: -15px;
+    top: -15px;
 }
